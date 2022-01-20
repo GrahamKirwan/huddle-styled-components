@@ -6,8 +6,30 @@ export const StyledHeader = styled.header `
 `
 
 export const Nav = styled.nav`
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    
+    @media (max-width: ${(props) => props.theme.mobile}) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
-export const Logo = styled.img``
+export const Logo = styled.img`
+
+@media (max-width: ${(props) => props.theme.mobile}) {
+        margin-bottom: 40px;
+    }
+`
+
+export const Image = styled.img`
+    width: 375px;
+    margin-left: 40px;
+
+    @media (max-width: ${(props) => props.theme.mobile}) {
+        margin-top: 40px;
+    }
+`
