@@ -9,7 +9,7 @@ import content from './content.js'
 const theme = {
   colors: {
     header: '#ebfbff',
-    body: '#fff',
+    body: '#ffffff',
     footer: '#003333'
   },
   mobile: '769px'
